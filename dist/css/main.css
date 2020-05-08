@@ -124,7 +124,7 @@
 }
 
 body {
-  background: #444;
+  background-color: #444;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -132,7 +132,7 @@ body {
   line-height: 1.5;
 }
 body#bg-img {
-  background: url("../images/background.webp");
+  background-image: url("../images/background.webp");
   background-attachment: fixed;
   background-size: cover;
 }
