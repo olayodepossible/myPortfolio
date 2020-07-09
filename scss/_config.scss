@@ -52,12 +52,13 @@ $background-opacity: 0.9;
   }
 }
 @mixin mediaLarge {
-  @media screen and (min-width: 769px) and(max-width: 1024px) {
+  @media screen and(min-width: 769px) and(max-width: 1024px) {
     @content;
   }
 }
 @mixin mediaXLarge {
-  @media screen and (min-width: 1171px) {
+  @media screen and(min-width: 1171px) {
     @content;
   }
+  color: red($color: #d80808);
 }
