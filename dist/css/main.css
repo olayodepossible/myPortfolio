@@ -358,7 +358,7 @@ main#home h1 {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   main {
     padding: 2rem;
   }
@@ -367,7 +367,7 @@ main#home h1 {
   }
   main .lg-heading {
     margin-top: 1rem;
-    font-size: 5rem;
+    font-size: 3rem;
   }
   .projects {
     grid-template-columns: 1fr;
